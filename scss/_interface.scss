@@ -1,0 +1,38 @@
+html,
+body {
+    box-sizing: border-box;
+    height: 100px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+._container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+._button {
+    background: #111B47;
+    border-radius: 2px;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+._title {
+    @include fMedium;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}

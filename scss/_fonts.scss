@@ -1,0 +1,14 @@
+@mixin fRegular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+@mixin fMedium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+@mixin fBlack {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
